@@ -18,6 +18,14 @@ Projetos desenvolvidos durante a trilha de React Native, focados na criação de
 
 Cada projeto explora diferentes aspectos do desenvolvimento e representa um avanço progressivo na complexidade e uso de recursos das tecnologias.
 
+## Next.js
+
+Projetos desenvolvidos utilizando Next.js, framework React para produção que oferece renderização híbrida, roteamento automático e otimizações de performance.
+
+| Projeto                    | Descrição/Tópicos                                                                                                               | Tecnologia                                                                                                                                                                                                                                                                                    |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [site-blog](./site-blog)   | Projeto de blog desenvolvido durante curso da Rocketseat. Explora conceitos fundamentais do Next.js incluindo SSG, roteamento e componentes React. | Next.js <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" width="20" height="20"/> TypeScript <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="20" height="20"/> |
+
 ## Futuras Trilhas
 
 Conforme eu avançar em outros cursos da Rocketseat, novas seções serão adicionadas aqui com seus respectivos projetos.
