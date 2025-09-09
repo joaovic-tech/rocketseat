@@ -1,4 +1,4 @@
-import { LandingPage } from "@/templates/landing-page/landing-page";
+import { LandingPage } from '@/templates/landing-page';
 
 export default function Home() {
   return <LandingPage />;

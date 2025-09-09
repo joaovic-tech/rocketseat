@@ -1,13 +1,13 @@
-import { ArrowRight, Clock, Store } from "lucide-react";
-import { Button } from "../../../../components/ui/button";
-import Image from "next/image";
-import Link from "next/link";
+import { ArrowRight, Clock, Store } from 'lucide-react';
+import Image from 'next/image';
+import Link from 'next/link';
+import { Button } from '../../../../components/ui/button';
 
 export const HeroSection = () => {
   return (
     <section className="container relative flex items-center justify-center mt-16">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 min-h-[20rem] md:h-[36rem] items-center">
-        <div>
+        <div className="flex flex-col items-center justify-center gap-4 md:items-start lg:items-start">
           <h1 className="text-gray-100 text-heading-hg font-sans">
             Venda seus produtos como afiliado em um único lugar
           </h1>
@@ -29,7 +29,7 @@ export const HeroSection = () => {
               </div>
             </div>
 
-            <div className="text-white flex-col gap-2 mt-5 items-center md:items-start lg:items-start">
+            <div className="text-white flex flex-col gap-2 mt-5 items-center md:items-start ls:items-start">
               <Button className="rounded-full w-fit" asChild>
                 <Link href="/criar-loja">
                   Criar loja grátis
@@ -43,6 +43,7 @@ export const HeroSection = () => {
             </div>
           </div>
         </div>
+
         <div className="relative h-[20rem] hidden md:h-full order-first md:order-last items-center justify-center md:flex lg:flex">
           <Image
             src="/hero-section.svg"
