@@ -1,5 +1,5 @@
-import Image from 'next/image';
-import Link from 'next/link';
+import Image from "next/image";
+import Link from "next/link";
 
 type Author = {
   name: string;
@@ -38,7 +38,7 @@ export const PostCard = ({
           </div>
           <Image
             src={image}
-            alt=""
+            alt={title}
             width={288}
             height={144}
             className="w-full h-40 object-cover object-center rounded-t-[8px]"
