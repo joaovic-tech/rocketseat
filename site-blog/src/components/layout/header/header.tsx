@@ -1,7 +1,7 @@
-import Link from 'next/link';
-import { ActiveLink } from '../../active-link';
-import { Logo } from '../../logo';
-import { Button } from '../../ui/button';
+import { ActiveLink } from "@/components/active-link";
+import { Logo } from "@/components/logo";
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export const Header = () => {
   return (
@@ -12,7 +12,7 @@ export const Header = () => {
 
           <nav className="flex items-center gap-6">
             <ActiveLink href="/">Início</ActiveLink>
-            <ActiveLink href="/src/pages/blog-page">Blog</ActiveLink>
+            <ActiveLink href="/blog">Blog</ActiveLink>
             <Button variant="secondary" asChild>
               <Link href="/comecar">Começar</Link>
             </Button>

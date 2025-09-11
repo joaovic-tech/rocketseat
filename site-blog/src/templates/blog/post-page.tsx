@@ -1,3 +1,5 @@
+"use client";
+
 import { Post } from "contentlayer/generated";
 import Image from "next/image";
 import Link from "next/link";
@@ -35,7 +37,7 @@ export const PostPage = ({ post }: PostPageProps) => {
           <BreadcrumbList>
             <BreadcrumbItem>
               <BreadcrumbLink asChild className="text-action-sm">
-                <Link href="/src/pages/blog-page">Blog</Link>
+                <Link href="/blog">Blog</Link>
               </BreadcrumbLink>
             </BreadcrumbItem>
             <BreadcrumbSeparator />
