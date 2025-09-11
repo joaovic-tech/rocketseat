@@ -35,7 +35,7 @@ export const PostPage = ({ post }: PostPageProps) => {
           <BreadcrumbList>
             <BreadcrumbItem>
               <BreadcrumbLink asChild className="text-action-sm">
-                <Link href="/blog">Blog</Link>
+                <Link href="/src/pages/blog-page">Blog</Link>
               </BreadcrumbLink>
             </BreadcrumbItem>
             <BreadcrumbSeparator />
