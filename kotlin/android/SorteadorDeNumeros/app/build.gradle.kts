@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.joaovictech.applicationandroidone"
+    namespace = "com.joaovictech.sorteadordenumeros"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.joaovictech.applicationandroidone"
+        applicationId = "com.joaovictech.sorteadordenumeros"
         minSdk = 26
         targetSdk = 36
         versionCode = 1
@@ -29,10 +29,6 @@ android {
     }
     kotlinOptions {
         jvmTarget = "11"
-    }
-
-    buildFeatures {
-        viewBinding = true
     }
 }
 
